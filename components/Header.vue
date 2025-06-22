@@ -1,0 +1,27 @@
+<template>
+  <header class="flex items-center justify-between py-5">
+    <NuxtLink class="text-3xl font-semibold" to="/">FMusic</NuxtLink>
+    <div class="hidden lg:flex items-center gap-10">
+      <nav class="flex gap-5">
+        <ul>
+          <NuxtLink to="/commands">Список команд</NuxtLink>
+        </ul>
+        <ul>
+          <NuxtLink
+            to="https://github.com/alexf0xdev/fmusic-discord-bot/issues"
+            target="_blank"
+            >Сообщить о проблеме</NuxtLink
+          >
+        </ul>
+      </nav>
+      <NuxtLink
+        class="flex items-center gap-2 bg-orange-500 px-5 py-2.5 rounded"
+        to="https://discord.com/oauth2/authorize?client_id=1373747179319202015"
+        target="_blank"
+      >
+        <Icon name="fa6-brands:discord" />
+        Добавить на сервер
+      </NuxtLink>
+    </div>
+  </header>
+</template>
