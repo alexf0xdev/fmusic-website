@@ -1,4 +1,3 @@
 <template>
   <Hero />
-  <!-- <AvailableServices /> -->
 </template>

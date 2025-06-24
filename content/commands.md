@@ -16,4 +16,6 @@
 
 `/remove` - убрать трек из очереди
 
+`/seek` - перемотать трек
+
 Не нашли нужной команды? [Сообщите здесь](https://github.com/alexf0xdev/fmusic-discord-bot/issues)
