@@ -1,13 +1,9 @@
 <script setup lang="ts">
 import type { NuxtError } from '#app'
 
-const props = defineProps({
-  error: Object as () => NuxtError,
-})
+const { error } = defineProps<{ error?: NuxtError }>()
 
-useSeoMeta({ title: props.error?.statusCode })
-
-const handleError = () => clearError({ redirect: '/' })
+useSeoMeta({ title: error?.statusCode })
 </script>
 
 <template>
@@ -22,7 +18,7 @@ const handleError = () => clearError({ redirect: '/' })
         <div class="flex flex-col sm:flex-row sm:justify-center mt-5">
           <button
             class="flex items-center justify-center gap-2 bg-orange-500 px-5 py-2.5 rounded cursor-pointer"
-            @click="handleError"
+            @click="clearError({ redirect: '/' })"
           >
             <Icon class="text-2xl" name="tabler:home" />
             На главную

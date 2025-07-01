@@ -8,16 +8,19 @@
         </ul>
         <ul>
           <NuxtLink
-            to="https://github.com/alexf0xdev/fmusic-discord-bot/issues"
+            to="https://discord.gg/9YNqXkajgZ"
             target="_blank"
-            >Сообщить о проблеме</NuxtLink
+            rel="nofollow"
           >
+            Поддержка
+          </NuxtLink>
         </ul>
       </nav>
       <NuxtLink
         class="flex items-center gap-2 bg-orange-500 px-5 py-2.5 rounded"
         to="https://discord.com/oauth2/authorize?client_id=1373747179319202015"
         target="_blank"
+        rel="nofollow"
       >
         <Icon name="fa6-brands:discord" />
         Добавить на сервер

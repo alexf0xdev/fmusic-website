@@ -9,6 +9,7 @@
         class="text-orange-500"
         to="https://github.com/alexf0xdev/fmusic-discord-bot"
         target="_blank"
+        rel="nofollow"
       >
         открытым исходным кодом</NuxtLink
       >.
@@ -18,6 +19,7 @@
         class="flex items-center justify-center gap-2 bg-orange-500 px-7 py-3 text-xl rounded"
         to="https://discord.com/oauth2/authorize?client_id=1373747179319202015"
         target="_blank"
+        rel="nofollow"
       >
         <Icon name="fa6-brands:discord" />
         Добавить на сервер
