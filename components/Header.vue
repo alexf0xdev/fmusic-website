@@ -4,7 +4,7 @@
     <div class="hidden lg:flex items-center gap-10">
       <nav class="flex gap-5">
         <ul>
-          <NuxtLink to="/commands">Список команд</NuxtLink>
+          <NuxtLink to="/commands">Commands</NuxtLink>
         </ul>
         <ul>
           <NuxtLink
@@ -12,7 +12,7 @@
             target="_blank"
             rel="nofollow"
           >
-            Поддержка
+            Support
           </NuxtLink>
         </ul>
       </nav>
@@ -23,7 +23,7 @@
         rel="nofollow"
       >
         <Icon name="fa6-brands:discord" />
-        Добавить на сервер
+        Add to server
       </NuxtLink>
     </div>
   </header>

@@ -1,21 +1,12 @@
-# Список доступных команд
+# Available commands
 
-`/help` - помощь по командам
+`/play` - find a track/playlist by link/title
+`/stop` - clear the track queue and the disable bot
+`/pause` - pause/unpause a track
+`/queue` - show track queue
+`/skip` - skip track in queue
+`/previous` - play previous track
+`/remove` - remove track from queue
+`/seek` - seek a track
 
-`/play` - найти трек/плейлист по ссылке/названию
-
-`/stop` - очистить очередь треков и отключить бота
-
-`/pause` - поставить трек на паузу/убрать с паузы
-
-`/queue` - показать очередь треков
-
-`/skip` - пропустить трек в очереди
-
-`/previous` - включить предыдущий трек
-
-`/remove` - убрать трек из очереди
-
-`/seek` - перемотать трек
-
-Не нашли нужной команды? [Сообщите здесь](https://github.com/alexf0xdev/fmusic-discord-bot/issues)
+Didn't find the command you needed? [Report here](https://discord.gg/9YNqXkajgZ)
