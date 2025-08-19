@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: (title) => (title ? `${title} - FMusic` : 'FMusic'),
-  meta: [{ name: 'description', content: 'Музыкальный Discord-бот.' }],
+  meta: [{ name: 'description', content: 'Fully free music Discord-bot.' }],
 })
 </script>
 
