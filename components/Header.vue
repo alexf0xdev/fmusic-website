@@ -7,11 +7,7 @@
           <NuxtLink to="/commands">Commands</NuxtLink>
         </ul>
         <ul>
-          <NuxtLink
-            to="https://discord.gg/9YNqXkajgZ"
-            target="_blank"
-            rel="nofollow"
-          >
+          <NuxtLink to="https://discord.gg/9YNqXkajgZ" target="_blank" rel="nofollow">
             Support
           </NuxtLink>
         </ul>

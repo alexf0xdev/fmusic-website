@@ -1,8 +1,6 @@
 <template>
   <div class="text-center mt-32">
-    <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold">
-      Music Discord-bot
-    </h1>
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold">Fully free music Discord-bot</h1>
     <p class="sm:text-2xl mt-7">
       Simple, free and with
       <NuxtLink
